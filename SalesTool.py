@@ -34,7 +34,7 @@ class SalesTool(Tk):
         self.itemsFrame.grid(row=2, column=1, sticky=NSEW)
         #self.fullscreen()
         self.title("Utopia - Sales Tool")
-        self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
+        # self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
         self.genMenu()
         self.bind("<Destroy>", self._destroy)
 
@@ -231,7 +231,7 @@ class SaleConfirmationDialog(Tk):
         self.mainFrame.pack(side=TOP, fill=BOTH, expand=True)
 
         self.title("Confirm Sale")
-        self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
+        # self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
         
         items = self.controller.saleItems
         price = 0.0

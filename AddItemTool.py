@@ -26,7 +26,7 @@ class AddItemTool(Tk):
         
         self.bind_all("<Control-w>", self.close)
         self.title("Utopia - Add Item")
-        self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
+        # self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
         self.genMenu()
         self.resizable(width=False, height=False)
         

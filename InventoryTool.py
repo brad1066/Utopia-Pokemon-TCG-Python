@@ -31,7 +31,7 @@ class InventoryTool(Tk):
         
         #self.fullscreen()
         self.title("Utopia - Inventory")
-        self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
+        # self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
         self.genMenu()
         self.resizable(width=True, height=True)
          

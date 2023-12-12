@@ -24,13 +24,13 @@ class EditItemTool(Tk):
         
         #self.fullscreen()
         self.title("Utopia - Sales Tool")
-        self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
+        # self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
         self.genMenu()
         self.bind("<Destroy>", self._destroy)
 
     def fullscreen(self):
         self.lift()
-        self.state("zoomed")
+        # self.state("zoomed")
 
     def genMenu(self):
         self.mainMenu = Menu(self)

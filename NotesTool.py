@@ -23,7 +23,7 @@ class NotesTool(Tk):
         
         self.fullscreen()
         self.title("Notes")
-        self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
+        # self.iconbitmap("{0}\\Images\\utopia_ico.ico".format(os.getcwd()))
         self.genMenu()
         self.resizable(width=True, height=True)
 
@@ -78,7 +78,7 @@ class NotesTool(Tk):
         
     def fullscreen(self):
         self.lift()
-        self.state("zoomed")
+        # self.state("zoomed")
 
     def openNote(self, event=None):
         NoteOpener(controller=self)
